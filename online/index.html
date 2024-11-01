@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A ESCOLHA, IV Simpósio da Nutrição Funcional | FSA®</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/png">
+
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-black text-white">
+
+    <div class="bg-black hero-bg w-full h-full overflow-hidden">
+
+        <section class="container mx-auto px-4 md:px-8 py-8">
+            <!-- Logotipo e Selo -->
+            <div class="p-1">
+                <div class="flex justify-between items-center">
+                    <img src="../assets/img/logotipo-fsa.svg" alt="Faculdade de Saúde Avançada" class="h-16 md:h-24"> <!-- Tamanho do logotipo ajustado no mobile -->
+                    <div class="w-4"></div>
+                    <button class="bg-orange-500 text-white text-xs md:text-base py-1 px-3 md:py-2 md:px-4 rounded-md shadow-[0_0_30px_rgba(249,115,22,0.8)]" onclick="document.getElementById('precos').scrollIntoView({ behavior: 'smooth' });">
+                        2º LOTE - INGRESSOS LIMITADOS
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Conteúdo principal -->
+            <div class="grid md:grid-cols-[40%_60%] gap-4 md:gap-8 mb-12 md:mb-16 mt-8 md:mt-8">
+                <div class="flex flex-col justify-center items-start">
+                    <img src="../assets/img/logotipo-a-escolha.svg" alt="A Escolha" class="h-24 md:h-32 mb-8">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">IV Simpósio da <br><span class="text-orange-500">Nutrição Funcional</span></h2>
+                    <p class="text-lg text-white mb-12 md:mb-16">3 dias de atualização científica em Nutrição Funcional, que te conduzirão pelo caminho do <b class="text-orange-500">SerHumanologista</b>.<br><br>
+                        <b>DIAS 5, 6 E 7 DE DEZEMBRO</b>
+                    </p>
+                    <button class="w-[250px] shadow-[0_0_30px_rgba(22, 163, 74, 0.8)] justify-center bg-green-400 text-white py-2 px-4 md:py-3 md:px-6 rounded-md hover:bg-orange-500 transition-all inline-flex items-center hover:shadow-[0_0_30px_rgba(249,115,22,0.8)]" onclick="document.getElementById('precos').scrollIntoView({ behavior: 'smooth' });">
+                        GARANTIR VAGA <span class="ml-2">→</span>
+                    </button>
+                </div>
+    
+                <!-- Container do vídeo com a imagem thumbnail -->
+                <div class="px-1 md:px-8 mt-12">
+                    <div class="relative cursor-pointer" style="padding-top: 56.25%;" onclick="openModal()"> <!-- Proporção 16:9 -->
+                        <!-- Imagem da thumbnail com a mesma proporção 16:9 -->
+                        <img src="../assets/img/thumb-hero.jpg" alt="Thumbnail do vídeo" class="absolute top-0 left-0 w-full h-full border-none rounded-md md:rounded-xl lg:rounded-2xl shadow-xl">
+                    </div>
+                </div>
+
+                <!-- Modal do vídeo -->
+                <div id="videoModal" class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center hidden">
+                    <div class="relative w-full max-w-3xl px-4 md:px-8">
+                        <div class="relative" style="padding-top: 56.25%;"> <!-- Proporção 16:9 -->
+                            <iframe id="videoFrame" class="absolute top-0 left-0 w-full h-full border-none rounded-md md:rounded-xl lg:rounded-2xl shadow-[0px_0px_80px_rgba(0,0,0,0.2)]" src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <!-- Botão para fechar o modal -->
+                        <button class="relative top-4 right-4 text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded" onclick="closeModal()">Fechar</button>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+    
+    <section class="bg-orange-600">
+        <div class="container mx-auto text-center py-8 w-[80%]">
+            <!-- Logo e título da seção -->
+            
+            <h3 class="text-md px-8">
+                O melhor evento sobre Nutrição Funcional e desenvolvimento pessoal para profissionais de saúde do país. <br> Sua jornada para um equilíbrio entre sucesso profissional e bem-estar pessoal começa aqui.
+            </h3>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-b from-blue-950 to-neutral-900 text-white pt-24 py-16">
+        <div class="container mx-auto text-center px-4 md:px-8"> <!-- Margens ajustadas no mobile -->
+            <h2 class="text-3xl md:text-4xl font-bold mb-2">
+                EVENTO <span class="text-green-500">PRESENCIAL E ONLINE</span>
+            </h2>
+            <p class="text-gray-400">
+                Exclusivo para estudantes e profissionais da saúde!
+            </p>
+            <h3 class="text-xl md:text-2xl font-bold mt-4">
+                Dias <span class="text-white">5, 6 e 7 de Dezembro</span>
+            </h3>
+            <p class="text-lg text-gray-400 mb-8">
+                em São Paulo/SP
+            </p>
+        </div>
+    <div>
+        
+        <img src="../assets/img/img-divisoria.png" class="my-8 mx-auto mt-24"></div>
+        
+
+        <div class="container mx-auto text-center mb-8 mt-24 px-4 md:px-8"> <!-- Margens ajustadas no mobile -->
+            <img src="../assets/img/a-escolha-logo-tsuru.svg" alt="A Escolha" class="h-12 mx-auto mb-16">
+            <p class="text-3xl">
+                O que você vai ver no evento <br><span class="text-orange-500 font-bold">A ESCOLHA</span>
+            </p>
+        </div>
+    
+        <div class="container mx-auto text-center mb-16 px-4 md:px-8"> <!-- Margens ajustadas no mobile -->
+            <p class="text-xl text-gray-300 max-w-xl mx-auto">
+                Ao longo dos 3 dias de Simpósio, vamos aprofundar os conhecimentos e atualizações científicas acerca dos temas:
+            </p>
+        </div>
+    
+        <!-- Ajuste da Elipse em Cima no Mobile -->
+        <div class="container mx-auto w-full lg:w-[800px]">
+            <div class="flex flex-col items-center gap-12 mb-16 mt-16 px-8">
+                
+                <!-- Tema 1 -->
+                <div class="flex flex-col items-center text-center md:flex-row md:items-start md:text-left justify-left max-w-4xl w-full mx-auto">
+                    <div class="rounded-full h-32 w-32 flex-shrink-0 mb-4 md:mb-0 bg-center bg-cover" style="background-image: url('../assets/img/img-saude-intestinal.png');"></div>
+                    <div class="md:ml-12 text-left">
+                        <h4 class="text-xl font-bold text-orange-500">SAÚDE INTESTINAL</h4>
+                        <ul class="text-gray-300 list-disc list-inside mt-2 text-base space-y-2">
+                            <li class="mb-1">Disbiose intestinal: suas causas e consequências na saúde.</li>
+                            <li class="mb-1">Entendendo e atuando no eixo intestino-cérebro.</li>
+                            <li>Entenda o elo entre imunidade e saúde intestinal.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Tema 2 -->
+                <div class="flex flex-col items-center text-center md:flex-row md:items-start md:text-left justify-left max-w-4xl w-full mx-auto">
+                    <div class="rounded-full h-32 w-32 flex-shrink-0 mb-4 md:mb-0 bg-center bg-cover" style="background-image: url('../assets/img/img-inflamacao.jpg');"></div>
+                    <div class="md:ml-12 text-left">
+                        <h4 class="text-xl font-bold text-orange-500">INFLAMAÇÃO</h4>
+                        <ul class="text-gray-300 list-disc list-inside mt-2 text-base space-y-2">
+                            <li class="mb-1">Genômica nutricional na inflamação e estresse oxidativo.</li>
+                            <li class="mb-1">Inflamação como desencadeante de muitas doenças</li>
+                            <li>Como investigar e atuar pela Nutrição Funcional.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Tema 3 -->
+                <div class="flex flex-col items-center text-center md:flex-row md:items-start md:text-left justify-left max-w-4xl w-full mx-auto">
+                    <div class="rounded-full h-32 w-32 flex-shrink-0 mb-4 md:mb-0 bg-center bg-cover" style="background-image: url('../assets/img/img-saude-mitocondial.avif');"></div>
+                    <div class="md:ml-12 text-left">
+                        <h4 class="text-xl font-bold text-orange-500">SAÚDE MITOCONDRIAL</h4>
+                        <ul class="text-gray-300 list-disc list-inside mt-2 text-base space-y-2">
+                            <li class="mb-1">Poluentes e suas consequências na saúde mitocondrial.</li>
+                            <li class="mb-1">Como saúde hormonal se relaciona com saúde mitocondrial.</li>
+                            <li>Como atuar e suplementar para saúde mitocondrial.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Botão -->
+        <div class="text-center mb-16 mt-24">
+            <button class="bg-green-500 text-white py-3 px-16 rounded-md hover:bg-green-600 transition-all inline-flex items-center justify-center" onclick="document.getElementById('precos').scrollIntoView({ behavior: 'smooth' })">
+                GARANTIR VAGA <span class="ml-2">→</span>
+            </button>
+        </div>
+        
+        <img src="../assets/img/img-divisoria.png" class="my-8 mx-auto mt-24"></div>
+
+        <!-- Programa do Evento (3 Blocos) -->
+        <div class="container mx-auto text-center px-4 md:px-8 md:w-3/4">
+            <p class="text-3xl mb-8 mt-24">
+                Uma verdadeira imersão de 3 dias
+            </p>
+            <h3 class="text-xl md:text-2xl font-bold mb-2">
+                Dias <span class="text-green-500">5, 6 e 7 de Dezembro</span>
+            </h3>
+            <p class="text-lg text-gray-400 mb-16">
+                em São Paulo/SP
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-24 justify-center">
+                <!-- Coluna 1: Calendário -->
+                <div class="flex justify-center">
+                    <img src="../assets/img/img-calendario.png" alt="Calendário" class="rounded-xl w-full">
+                </div>
+            
+                <!-- Coluna 2: 1º DIA -->
+                <div class="flex justify-center">
+                    <img src="../assets/img/img-dia-1.png" alt="Calendário" class="rounded-xl w-full">
+                </div>
+            
+                <!-- Coluna 3: 2º DIA -->
+                <div class="flex justify-center">
+                    <img src="../assets/img/img-dia-2.png" alt="Calendário" class="rounded-xl w-full">
+                </div>
+            
+                <!-- Coluna 4: 3º DIA -->
+                <div class="flex justify-center">
+                    <img src="../assets/img/img-dia-3.png" alt="Calendário" class="rounded-xl w-full">
+                </div>
+            </div>
+            
+        </div>
+        <img src="../assets/img/img-divisoria.png" class="my-8 mx-auto mt-32"></div>
+    </section>
+    
+    
+    
+    <section class="bg-gradient-to-b from-neutral-900 to-blue-950 text-white py-8 px-4">
+        <div class="container mx-auto text-center mt-">
+            <!-- Logo e título da seção -->
+            <img src="../assets/img/a-escolha-logo-tsuru.svg" alt="A Escolha" class="h-12 mx-auto mb-12">
+            <h3 class="text-2xl md:text-3xl font-semibold mb-8 px-8">
+                Esse evento é <span class="font-bold">feito para você</span> que:
+            </h3>
+        </div>
+    
+        <!-- Lista de itens centralizados -->
+        <div class="container mx-auto flex flex-col items-center gap-12 mt-16">
+            <!-- Item 1 -->
+            <div class="flex flex-col items-center text-center max-w-md mx-auto mb-12">
+                <div class="h-48 w-48 mb-8 flex items-center justify-center">
+                    <img src="../assets/img/img-comeco-carreira.png" alt="Começo de carreira">                  
+                </div>
+                <p class="text-gray-300">
+                    Está no começo da carreira ou retomando sua profissão e escolhe lotar sua agenda e fazer a diferença na vida das pessoas.
+                </p>
+            </div>
+        
+            <!-- Item 2 -->
+            <div class="flex flex-col items-center text-center max-w-md mx-auto mb-12">
+                <div class="h-48 w-48 mb-8 flex items-center justify-center">
+                    <img src="../assets/img/img-duvida-clinica.png" alt="Dúvida clínica">                  
+                </div>
+                <p class="text-gray-300">
+                    Lida com a insegurança profissional e com a dificuldade de aplicar o conhecimento na prática.
+                </p>
+            </div>
+        
+            <!-- Item 3 -->
+            <div class="flex flex-col items-center text-center max-w-md mx-auto mb-12">
+                <div class="h-48 w-48 mb-8 flex items-center justify-center">
+                    <img src="../assets/img/img-agenda-cheia.png" alt="Agenda cheia">                  
+                </div>
+                <p class="text-gray-300">
+                    Está no mercado, possui a agenda cheia, mas ESCOLHE faturar mais e dar mais atenção para a sua vida pessoal.
+                </p>
+            </div>
+        
+            <!-- Item 4 -->
+            <div class="flex flex-col items-center text-center max-w-md mx-auto mb-24">
+                <div class="h-48 w-48 mb-8 flex items-center justify-center">
+                    <img src="../assets/img/img-falta-de-tempo.png" alt="Falta de tempo">                  
+                </div>
+                <p class="text-gray-300">
+                    Depois de anos de faculdade, anos de prática clínica, ainda lida com falta de dinheiro, falta de tempo, falta de saúde e qualidade de vida.
+                </p>
+            </div>
+        </div>
+        <img src="../assets/img/img-divisoria.png" class="my-8 mx-auto"></div>
+    </section>
+
+
+    <section class="bg-blue-950 text-white py-16 px-4 leading-relaxed">
+        <div class="container mx-auto text-center mt-4">
+            <!-- Logo e título da seção -->            
+            <h3 class="text-md uppercase mb-8">QUEM ESTARÁ NO EVENTO:</h3>
+            <img src="../assets/img/logotipo-a-escolha.svg" alt="A Escolha" class="h-40 lg:h-56 mx-auto mb-8">
+        </div>
+    
+        <!-- Anfitriões -->
+        <div class="container mx-auto flex flex-col items-center text-center mb-16">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+                <!-- Imagem dos anfitriões -->
+                <img src="../assets/img/img-gabriel-gisele.png" alt="Anfitriões" class="h-72 lg:h-96">
+                <!-- Descrição dos anfitriões -->
+                <div class="text-left max-w-2xl leading-relaxed text-base">
+                    <h4 class="text-xl font-bold text-white mb-12">OS ANFITRIÕES</h4>
+                    <p class="text-gray-300 mb-4">
+                        <span class="font-bold text-white">Gisele Hedler</span> e <span class="font-bold text-white">Gabriel de Carvalho</span>, co-fundadores da Faculdade de Saúde Avançada® – organizadora do evento.
+                    </p>
+                    <br>
+                    <p class="text-gray-300">
+                        <span class="font-bold">Gisele Hedler</span> é reconhecida por sua expertise em psicologia positiva e liderança da Tribo Vida®, um movimento que ajuda a “desligar os genes das doenças com ferramentas simples baseada em ciência”. Gisele é referência em estilo de vida saudável e transformação pessoal.
+                    </p>
+                    <br>
+                    <p class="text-gray-300 mt-4">
+                        <span class="font-bold">Gabriel de Carvalho</span> é o nome da Nutrição Funcional no Brasil, pois foi ele quem a introduziu no país em 1999. Já impactou mais de 10.000 profissionais da área da saúde através dos seus cursos online. É o responsável por trazer de volta ao mercado centenas de profissionais, nutricionistas e médicos que haviam largado a profissão por não acreditarem naquele trabalho que faziam antes. Gabriel é visionário e comprometido com a transformação dos profissionais da área da saúde.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Convidados -->
+        <div class="container mx-auto flex flex-col gap-24">
+
+            <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto gap-8 text-sm">
+                <div class="bg-gray-400 rounded-full h-48 w-48 flex-shrink-0 bg-cover bg-top" style="background-image: url('../assets/img/img-gabriel.jpg');"></div>
+                <div class="text-left">
+                    <h4 class="text-xl font-bold text-orange-500">Gabriel de Carvalho</h4>
+                    <p class="text-gray-300 mt-4 leading-relaxed text-base">
+                        "Imagine transformar sua carreira e impactar a vida dos seus pacientes. No nosso evento, você unirá paixão e conhecimento atual, impulsionando seu crescimento profissional e pessoal.  Mais que uma atualização, é uma jornada para aprender técnicas avançadas, otimizar sua rotina e melhorar seus resultados, enquanto ganha mais tempo para si e sua família.  Não perca essa chance de se aproximar dos seus sonhos. Inscreva-se e esteja pronto para compartilhar, aprender e se inspirar. Eu, a Gisele e nossa equipe, estaremos presentes e comprometidos em oferecer o melhor em conhecimento e paixão pela saúde."
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto gap-8 text-sm">
+                <div class="bg-gray-400 rounded-full h-48 w-48 flex-shrink-0 bg-cover bg-top" style="background-image: url('../assets/img/img-gisele.jpg');"></div>
+                <div class="text-left">
+                    <h4 class="text-xl font-bold text-orange-500">Gisele Hedler</h4>
+                    <p class="text-gray-300 mt-4 leading-relaxed text-base">
+                        "O evento A Escolha é a oportunidade de mergulhar fundo na Nutrição Funcional e se tornar um SerHumanologista, um verdadeiro agente de saúde capaz de tratar as causas, e não apenas os sintomas dos seus pacientes.  Eu estarei presente para compartilhar conhecimento, trocar experiências e, principalmente, para inspirar cada um de vocês a tomar as decisões que moldam um futuro mais brilhante, para você e para aqueles que você cuida. Não deixe essa oportunidade passar, A Escolha é sua! Nos vemos lá!"
+                    </p>
+                </div>
+            </div>
+
+            <!-- Convidado 1 -->
+            <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto gap-8 text-sm">
+                <div class="bg-gray-400 rounded-full h-48 w-48 flex-shrink-0 bg-cover bg-top" style="background-image: url('../assets/img/img-emiliana.png');"></div>
+                <div class="text-left">
+                    <h4 class="text-xl font-bold text-orange-500">Emiliana Barbosa Marques</h4>
+                    <p class="text-gray-300 mt-4 leading-relaxed text-base">
+                        Graduada em Nutrição com mestrado e doutorado em Ciências Biomédicas na Universidade Federal Fluminense (UFF/Niterói-RJ). Pós-doutorado (2016-2021), livre docência e pesquisa com foco em programação metabólica e desenvolvimento de doenças cardiometabólicas, e farmacologia experimental (UFF/Niterói-RJ). Pós-graduação em Nutrição de Precisão: Nutrigenética e Nutrigenômica. Pós-graduação em Fitoterapia Aplicada à Nutrição. Pós-graduação em Nutrição Clínica. Pós-graduação em Fisiologia do Exercício. Membro científico do grupo de pesquisas em Psiquiatria Nutricional (GEPPeN) no Instituto de Nutrição do Cérebro e Coração (INCCOR-RJ). Revisor de periódico: International Journal of Cardiovascular Science.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Convidado 2 -->
+            <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto gap-8">
+                <div class="bg-gray-400 rounded-full h-48 w-48 flex-shrink-0 bg-cover bg-top" style="background-image: url('../assets/img/img-raquel.jpg');"></div>
+
+                <div class="text-left">
+                    <h4 class="text-xl font-bold text-orange-500">Raquel Cristina Schwanke</h4>
+                    <p class="text-gray-300 mt-4 leading-relaxed text-base">
+                        Graduada em Nutrição pelo Centro Universitário Avantis e graduação em Farmácia Industrial pela Pontifícia Universidade Católica RS (2001-2005). Especialização em Farmácia Hospitalar – IAHCS Escola Superior de Gestão e Ciências da Saúde (2006-2007). Mestrado em Biologia Celular e Molecular – PUCRS (2006-2008). Doutorado em Farmacologia pela Universidade Federal de Santa Catarina (UFSC) (2008-2012) com intercâmbio na Universidade da Flórida (UF/EUA) – (2011). Pós-doutorado em Farmacologia e Farmacocinética – GlaxoSmithKline – Stevenage/Reino Unido (2012-2013). Diretora de Estudos no Centro de Pesquisa e Ensaios Pré-Clínicos (CIEnP) – Florianópolis/SC (2014-2018).   
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   <section class="bg-gradient-to-b from-blue-950 to-gray-900 py-24">
+        <div class="container mx-auto overflow-hidden">
+            <!-- Carrossel 1 (Direita para Esquerda) -->
+            <div class="scroll-left mb-4">
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-1.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-2.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-3.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-4.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-5.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-6.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-7.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-8.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-9.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-10.jpg');"></div>
+            </div>
+
+            <!-- Carrossel 2 (Esquerda para Direita) -->
+            <div class="scroll-right mb-4">
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-11.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-12.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-13.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-14.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-15.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-16.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-17.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-18.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-19.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-20.jpg');"></div>
+            </div>
+
+            <!-- Carrossel 3 (Direita para Esquerda) -->
+            <div class="scroll-left">
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-21.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-22.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-23.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-24.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-25.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-26.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-27.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-28.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-29.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('../assets/img/img-carrossel-30.jpg');"></div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="py-16 bg-gradient-to-b from-gray-900 to-blue-950 text-white">
+        <img src="../assets/img/img-divisoria.png" class="mx-auto">
+        <div class="container mx-auto text-center mt-24 px-8 sm:px-16 md:px-32 lg:px-64">
+            <img src="../assets/img/a-escolha-logo-tsuru.svg" alt="Logo A Escolha" class="h-12 mx-auto mb-4">
+            <h2 class="text-xl md:text-2xl font-bold mb-24">
+                O que os profissionais da saúde que participaram em outras edições do evento falam sobre o <span class="text-orange-500">Simpósio A Escolha</span>
+            </h2>
+        </div>
+    
+        <div class="container mx-auto grid gap-8 mt-16">
+<!-- Depoimento 1 -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:w-[80%] mx-auto">
+    <div class="relative cursor-pointer" onclick="openDepo1Modal()">
+        <img src="../assets/img/thumb-aline-guerra.png" alt="Thumbnail Depoimento 1" class="w-full h-full rounded-2xl object-cover">
+    </div>
+    <div class="text-left text-sm lg:p-16 md:p-4 sm:p-2">
+        <p class="italic text-gray-300 mb-2">
+            "O grande diferencial de estar aqui é todos presentes com um único propósito: gerar saúde, vitalidade, se autoconhecer e gerar mais conhecimento atualizado para que a gente possa retornar aos nossos consultórios e colocar isso em prática."
+        </p>
+        <p class="font-bold text-orange-500">Aline Guerra – Nutricionista</p>
+    </div>
+</div>
+
+<div id="depo1Modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white w-full max-w-4xl rounded-lg shadow-lg">
+        <div class="relative" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+            <iframe id="depo1Frame" class="absolute top-0 left-0 w-full h-full border-none rounded-md" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button onclick="closeDepo1Modal()" class="absolute top-2 right-2 text-black bg-white p-2 rounded-full">X</button>
+    </div>
+</div>
+
+
+    
+ <!-- Depoimento 2 -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:w-[80%] mx-auto">
+    <div class="relative sm:h-96 md:h-96 lg:h-96 cursor-pointer" onclick="openDepo2Modal()">
+        <img src="../assets/img/thumb-vanessa-ganime.png" alt="Thumbnail Depoimento 2" class="w-full h-full rounded-2xl object-cover">
+    </div>
+    <div class="text-left text-sm lg:p-16 md:p-4 sm:p-2">
+        <p class="italic text-gray-300 mb-2">
+            "Pra mim, tá sendo o mais enriquecedor de todos que eu já conheci. E a palestra da Ci, principalmente hoje, me emocionou demais. Ela me remeteu ao meu passado e conseguiu me fazer sentir muito mais segura, emocionada. Meus conhecimentos aqui, com certeza, se ampliaram muitíssimo."
+        </p>
+        <p class="font-bold text-orange-500">Vanessa Ganime – Estudante de Nutrição</p>
+    </div>
+</div>
+
+<!-- Modal para vídeo do depoimento 2 -->
+<div id="depo2Modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white w-full max-w-4xl rounded-lg shadow-lg">
+        <div class="relative" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+            <iframe id="depo2Frame" class="absolute top-0 left-0 w-full h-full border-none rounded-md" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button onclick="closeDepo2Modal()" class="absolute top-2 right-2 text-black bg-white p-2 rounded-full">X</button>
+    </div>
+</div>
+
+    
+ <!-- Depoimento 3 -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:w-[80%] mx-auto">
+    <div class="relative sm:h-96 md:h-96 lg:h-96 cursor-pointer" onclick="openDepo3Modal()">
+        <img src="../assets/img/thumb-monique-vargas.png" alt="Thumbnail Depoimento 3" class="w-full h-full rounded-2xl object-cover">
+    </div>
+    <div class="text-left text-sm lg:p-16 md:p-4 sm:p-2">
+        <p class="italic text-gray-300 mb-2">
+            "O evento tá sendo sensacional porque é uma virada de chave. Tem a network que a gente acaba conhecendo pessoas e se envolvendo, e isso impulsiona. Isso faz com que a gente fale: você tá no caminho certo, não deixe que as pessoas te desanimem."
+        </p>
+        <p class="font-bold text-orange-500">Monique Vargas - Nutricionista</p>
+    </div>
+</div>
+
+<!-- Modal para vídeo do depoimento 3 -->
+<div id="depo3Modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white w-full max-w-4xl rounded-lg shadow-lg">
+        <div class="relative" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+            <iframe id="depo3Frame" class="absolute top-0 left-0 w-full h-full border-none rounded-md" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button onclick="closeDepo3Modal()" class="absolute top-2 right-2 text-black bg-white p-2 rounded-full">X</button>
+    </div>
+</div>
+
+    
+ <!-- Depoimento 4 -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:w-[80%] mx-auto">
+    <div class="relative h-64 sm:h-96 md:h-64 lg:h-96 cursor-pointer" onclick="openDepo4Modal()">
+        <img src="../assets/img/thumb-carina-scapinelli.png" alt="Thumbnail Depoimento 4" class="w-full h-full rounded-2xl object-cover">
+    </div>
+    <div class="text-left text-sm lg:p-16 md:p-4 sm:p-2">
+        <p class="italic text-gray-300 mb-2">
+            "A Nutrição funcional deu uma nova vida, tanto para mim, como para os meus pacientes. E não tem como a gente não se orgulhar desse evento, ver o quanto a Nutrição está evoluindo, quantas nutris estão mudando a maneira de pensar, mudando a maneira de agir."
+        </p>
+        <p class="font-bold text-orange-500">Carina Scapinelli - Nutricionista</p>
+    </div>
+</div>
+
+<!-- Modal para vídeo do depoimento 4 -->
+<div id="depo4Modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white w-full max-w-4xl rounded-lg shadow-lg">
+        <div class="relative" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+            <iframe id="depo4Frame" class="absolute top-0 left-0 w-full h-full border-none rounded-md" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button onclick="closeDepo4Modal()" class="absolute top-2 right-2 text-black bg-white p-2 rounded-full">X</button>
+    </div>
+</div>
+
+    
+ <!-- Depoimento 5 -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:w-[80%] mx-auto">
+    <div class="relative sm:h-96 md:h-96 lg:h-96 cursor-pointer" onclick="openDepo5Modal()">
+        <img src="../assets/img/thumb-emanuelle-caceres.png" alt="Thumbnail Depoimento 5" class="w-full h-full rounded-2xl object-cover">
+    </div>
+    <div class="text-left text-sm lg:p-16 md:p-4 sm:p-2">
+        <p class="italic text-gray-300 mb-2">
+            "O que a gente aprende aqui, o que a gente vê aqui, não existe em nenhum outro lugar. [...] A gente tem a base, mas, muitas vezes, a gente chega na frente de um paciente e a gente não sabe como curar aquele paciente. E com isso aqui que a gente aprendeu hoje, ontem e, tenho certeza, que amanhã, a gente consegue ter as ferramentas para curar o paciente como o paciente é."
+        </p>
+        <p class="font-bold text-orange-500">Emanuelle Caceres - Biomédica</p>
+    </div>
+</div>
+
+<!-- Modal para vídeo do depoimento 5 -->
+<div id="depo5Modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white w-full max-w-4xl rounded-lg shadow-lg">
+        <div class="relative" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+            <iframe id="depo5Frame" class="absolute top-0 left-0 w-full h-full border-none rounded-md" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button onclick="closeDepo5Modal()" class="absolute top-2 right-2 text-black bg-white p-2 rounded-full">X</button>
+    </div>
+</div>
+
+        </div>
+        <img src="../assets/img/img-divisoria.png" class="mx-auto mt-24">
+    </section>
+    
+    <section class="py-8 bg-blue-950 to-black text-white">
+        <div class="container mx-auto text-center w-[80%]">
+            <img src="../assets/img/a-escolha-logo-tsuru.svg" alt="A Escolha" class="h-12 mx-auto mb-4">
+            <h2 class="text-xl md:text-3xl font-bold mb-16">
+                Além disso, <span class="text-orange-500">você recebe<br>um certificado de 24 horas/aula</span>
+            </h2>
+    
+   
+            <!-- Imagem do Certificado -->
+            <div class="flex justify-center mx-auto">
+                <div class="w-[320px] h-[190px] md:w-[653px] md:h-[460px] bg-cover bg-center rounded-xl shadow-xl" style="background-image: url('../assets/img/img-certificado.jpg.');"></div>
+            </div>
+        </div>
+        <img src="../assets/img/img-divisoria.png" class="mx-auto mt-24">
+    </section>
+  
+    <section class="py-8 bg-gradient-to-b from-blue-950 to-black text-white mb-16">
+        <div class="container mx-auto text-center w-[80%]">
+            <img src="../assets/img/a-escolha-logo-tsuru.svg" alt="A Escolha" class="h-12 mx-auto mb-4">
+            <h2 class="text-xl md:text-3xl font-bold mb-8">
+                Relembre os <span class="text-orange-500">eventos anteriores</span>
+            </h2>
+    
+            <!-- Três colunas com os títulos e datas dos Simpósios -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-16 w-[70%] mx-auto items-center">
+                <!-- I Simpósio -->
+                <div class="cursor-pointer" onclick="changeImage('simposio-2018.png')">
+                    <p class="text-2xl text-orange-500 font-bold">I Simpósio</p>
+                    <p class="text-base text-white">DEZ/2018</p>
+                    <span class="text-xs text-green-400">Clique aqui</span>
+                </div>
+                <!-- II Simpósio -->
+                <div class="cursor-pointer" onclick="changeImage('simposio-2019.png')">
+                    <p class="text-2xl text-orange-500 font-bold">II Simpósio</p>
+                    <p class="text-base text-white">DEZ/2019</p>
+                    <span class="text-xs text-green-400">Clique aqui</span>
+                </div>
+                <!-- III Simpósio -->
+                <div class="cursor-pointer" onclick="changeImage('simposio-2023.png')">
+                    <p class="text-2xl text-orange-500 font-bold">III Simpósio</p>
+                    <p class="text-base text-white">DEZ/2023</p>
+                    <span class="text-xs text-green-400">Clique aqui</span>
+                </div>
+            </div>
+    
+            <!-- Imagem única com a colagem dos eventos -->
+            <div class="flex justify-center">
+                <div id="imageContainer" class="w-[671px] h-[696px] bg-cover bg-center rounded-xl transition-all duration-500" style="background-image: url('../assets/img/simposio-2018.png');"></div>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    
+
+    <section id="precos" class="py-24 px-4 bg-gradient-to-b from-black to-gray-900 text-white">
+        <div class="md:w-[80%] container mx-auto grid grid-cols-1 gap-8 lg:gap-x-4" >
+            
+            <!-- Grid com 2 colunas nas resoluções md e lg -->
+    
+            <!-- Bloco 1: Ingresso Presencial -->
+            
+            <!-- 
+            <div class="bg-gray-800 rounded-2xl p-8 text-center w-full max-w-lg mx-auto shadow-xl">
+                <h2 class="text-green-500 text-2xl md:text-3xl font-bold mb-8 mt-8">INGRESSO PRESENCIAL</h2>
+                <p class="text-gray-300 text-sm md:text-base">Local do evento:</p>
+                <p class="text-white text-lg md:text-xl font-bold">São Paulo</p>
+                <p class="text-white text-sm md:text-base">
+                    Rua Vieira de Morais, 1369<br>
+                    Campo Belo – SP
+                </p>
+                <p class="text-green-500 text-lg md:text-xl font-bold mb-16 mt-8">DIAS 5, 6 E 7 DE DEZEMBRO</p>
+    
+                <div class="mt-4 text-sm">
+                    <div class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-left">Kit Credenciamento</span>
+                        <span class="font-bold text-right line-through">R$ 189,00</span>
+                    </div>
+                    <div class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-left">3 Dias de Palestras com Gabriel de Carvalho, Gisele Hedler e a equipe de professores da FSA</span>
+                        <span class="font-bold text-right line-through">R$28.000,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Material em PDF das Palestras</span>
+                        <span class="font-bold text-right">Não precificável</span>
+                    </div>
+                    <div class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-left">Ferramenta para Preenchimento da Matriz da Nutrição Funcional</span>
+                        <span class="font-bold text-right line-through">R$1.997,00</span>
+                    </div>
+                    
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Degustação de Produtos Natural Pure</span>
+                        <span class="font-bold text-right line-through">R$ 49,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Cupom de Desconto Exclusivo Natural Pure</span>
+                        <span class="font-bold text-right line-through">R$ 199,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Certificado de Participação de 24h/Aula</span>
+                        <span class="font-bold text-right">Não precificável</span>
+                    </div>
+                </div>
+    
+                <div class="mt-16 text-center">
+                    <p class="text-gray-500 line-through text-sm md:text-base">De R$ 30.434,00</p>
+                    <p class="text-white text-sm md:text-base">por apenas</p>
+                    <p class="text-green-500 text-3xl md:text-4xl font-bold">12x de R$48,42</p>
+                    <p class="text-white text-sm md:text-base">ou R$497 à vista</p>
+                </div>
+    
+                <div>
+                    <a href="https://pay.hotmart.com/T8241629D?off=pdy7jr33&checkoutMode=10" target="_blank"><button class="bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-4 w-[80%] rounded shadow-lg mt-8 mb-16">GARANTIR VAGA →</button></a>
+                </div>
+            </div>
+            -->
+
+            <!-- Bloco 2: Ingresso Online -->
+            <div class="h-auto bg-gray-800 rounded-2xl p-8 text-center w-full max-w-lg mx-auto shadow-xl">
+                <h2 class="text-green-500 text-2xl md:text-3xl font-bold mb-8 mt-8">INGRESSO ONLINE</h2>
+                <p class="text-gray-300 text-sm md:text-base">Local do evento:</p>
+                <p class="text-white text-lg md:text-xl font-bold">ONLINE</p>
+                
+                <!-- Flexbox para alinhar o texto e o logo -->
+                <div class="flex items-center justify-center mt-5">
+                    <p class="">Via</p>
+                    <img src="../assets/img/img-logo-zoom.svg" class="h-6 ml-1">
+                </div>
+                
+                <p class="text-green-500 text-lg md:text-xl font-bold mb-16 mt-8">DIAS 5, 6 E 7 DE DEZEMBRO</p>
+                <div class="mt-4 text-sm">
+                    <div class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-left">3 Dias de Palestras com Gabriel de Carvalho, Gisele Hedler e a equipe de professores da FSA</span>
+                        <span class="font-bold text-right line-through">R$28.000,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Material em PDF das Palestras</span>
+                        <span class="font-bold text-right">Não precificável</span>
+                    </div>
+                    <div class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-left">Ferramenta para Preenchimento da Matriz da Nutrição Funcional</span>
+                        <span class="font-bold text-right line-through">R$1.997,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Cupom de Desconto Exclusivo Natural Pure</span>
+                        <span class="font-bold text-right line-through">R$ 199,00</span>
+                    </div>
+                    <div class="flex justify-between py-4 border-b border-gray-700">
+                        <span class="text-left">Certificado de Participação de 24h/Aula</span>
+                        <span class="font-bold text-right">Não precificável</span>
+                    </div>
+                                    
+                </div>
+    
+                <div class="mt-16 text-center">
+                    <p class="text-gray-500 line-through text-sm md:text-base">Ee R$ 30.196,00</p>
+                    <p class="text-white text-sm md:text-base">por apenas</p>
+                    <p class="text-green-500 text-3xl md:text-4xl font-bold">12x de R$26,99</p>
+                    <p class="text-white text-sm md:text-base">ou R$277 à vista</p>
+                </div>
+    
+                <div class="mt-4">
+                    <a href="https://pay.hotmart.com/H93898135P?off=kv0k2ye6&checkoutMode=10+&bid=1725630656830" target="_blank"><button class="bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-4 w-[80%] rounded shadow-lg mt-8 mg-16">GARANTIR VAGA →</button></a>
+                </div>
+            </div>
+    
+        </div>
+        <img src="../assets/img/img-divisoria.png" class="my-8 mx-auto mt-32"></div>
+    </section>
+
+    <!-- Seção Perguntas Frequentes -->
+  <section class="bg-gray-900 pt-2 pb-32 py-24">
+    <div class="container mx-auto px-4 lg:px-8 lg:max-w-5xl">
+      <!-- Título da seção -->
+      <h2 class="text-2xl font-bold text-chicago-900 mb-8 flex items-center">
+        <span class="text-orange-500 mr-4">→</span> Perguntas frequentes
+      </h2>
+
+      <!-- Perguntas (Accordion) -->
+      <div class="space-y-4">
+        <!-- Pergunta 1 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Para quem é o evento A Escolha?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Este evento é destinado exclusivamente para profissionais e estudantes da área da saúde que desejam aprofundar seus conhecimentos em Nutrição Funcional e transformação pessoal.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Quando e onde será realizado o evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>O evento ocorrerá nos dias 5, 6 e 7 de dezembro em São Paulo, na Rua Vieira de Morais, 1369, Campo Belo – SP.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 3 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Qual é o investimento para participar do evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>O valor do ingresso presencial é de R$497 no segundo lote, que pode ser parcelado em até 12x de R$48,42. O ingresso online no segundo lote custa R$277, que também pode ser parcelado até 12x de R$26,99.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Como faço para me inscrever no evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Para garantir sua vaga, clique no botão “Garantir Vaga” na página e siga as instruções para completar sua inscrição. Os ingressos são limitados, então não deixe para a última hora!
+            </p>
+          </div>
+        </div>
+
+        <!-- Pergunta 5 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>O evento oferece certificado de participação?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Sim, todos os participantes receberão um certificado de participação ao final do evento.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 6 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Quais são os temas que serão abordados no evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>O evento vai focar na Nutrição Funcional e no conceito de SerHumanologista, abordando temas como tratamento das causas e não apenas dos sintomas, além de aspectos da vida relacionados à saúde integral.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 7 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Quem serão os palestrantes?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Entre os palestrantes, teremos Gabriel de Carvalho, pioneiro da Nutrição Funcional no Brasil, e Gisele Hedler, especialista em psicologia positiva e liderança, além de outros membros da equipe pedagógica da Faculdade de Saúde Avançada.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 8 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Existe algum suporte para dúvidas sobre a inscrição ou sobre o evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Sim, estamos à disposição para ajudar! Você pode entrar em contato conosco pelo WhatsApp (51) 99656-0240 ou pelo e-mail secretaria@saudeavancada.com.br.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Qual é o horário do evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>O evento acontecerá das 9h às 17h, e o credenciamento no primeiro dia (5 de dezembro) começará a partir das 8h.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Qual a carga horária?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>24 horas/aula.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>O que eu posso esperar ao participar do evento A Escolha?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>Você pode esperar uma experiência transformadora, com muita troca de conhecimento, networking e aprendizado prático que você poderá aplicar imediatamente na sua vida profissional e pessoal.</p>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="border-b border-orange-500">
+          <button class="w-full flex justify-between items-center py-4 text-left text-white focus:outline-none" onclick="toggleDropdown(this)">
+            <span>Como chegar ao local do evento?</span>
+            <span class="text-2xl transform transition-transform duration-300">▼</span>
+          </button>
+          <div class="hidden text-white pb-4">
+            <p>O evento será realizado em São Paulo, na Rua Vieira de Morais, 1369, Campo Belo – SP. A região é de fácil acesso, tanto para quem vem de transporte público quanto de carro.</p>
+          </div>
+        </div>
+
+ 
+    </div>
+
+        <!-- Outras perguntas... -->
+
+      </div>
+
+      <!-- Área de contato -->
+      <div class="mt-24 text-center">
+        <h3 class="text-lg font-bold text-chicago-900 mb-4">
+          <span class="text-orange-500 mr-2">→</span> Ainda tem alguma dúvida?
+        </h3>
+        <p class="text-white">Entre em contato conosco pelos canais abaixo.</p>
+        <div class="grid flex justify-center items-center space-x-6 mt-8">
+          <!-- Email -->
+          <div class="flex items-center mb-4">
+            <img src="../assets/img/icn-email.svg" alt="Email" class="w-6 h-6 mr-2">
+            <a href="mailto:contato@saudeavancada.com.br" class="text-chicago-900">contato@saudeavancada.com.br</a>
+          </div>
+          <!-- Telefone -->
+          <div class="flex items-center">
+            <img src="../assets/img/icn-telefone.svg" alt="Telefone" class="w-6 h-6 mr-2">
+            <a href="tel:+5519996560240" class="text-chicago-900">Suporte FSA: (19) 99656-0240</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-chicago-800 text-white py-20">
+    <div class="container mx-auto px-4 lg:px-8 lg:max-w-5xl flex flex-col lg:flex-row items-center justify-between">
+      
+      <!-- Logotipo e nome da instituição -->
+      <div class="lg:w-1/3 mb-6 lg:mb-0 lg:text-left">
+        <img src="../assets/img/logotipo-fsa-branco.svg" alt="Faculdade de Saúde Avançada" class="w-40">
+      </div>
+
+      <!-- Texto descritivo / Nota Legal -->
+      <div class="lg:w-2/3 text-sm text-gray-300 lg:text-left">
+        <p class="lg:max-w-lg lg:ml-auto text-[12px]">
+          Este treinamento é voltado para profissionais da Área da Saúde. O exercício da profissão é restrito a profissionais devidamente habilitados pelo conselho de classe correspondente à sua especialidade. Se você não possui esse registro, não siga as orientações recomendadas neste treinamento. Sempre consulte o seu médico sobre qualquer assunto relativo à sua saúde e aos tratamentos e medicamentos tomados por você ou pelas pessoas que recebem seus cuidados e atenção.
+        </p>
+      </div>
+    </div>
+  
+  </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

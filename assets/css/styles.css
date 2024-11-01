@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-bg {
+background-image: url('../img/bg-a-escolha-.jpg'); /* Substituir com o caminho correto */
+background-size: cover;
+background-position: top;
+}
+
+.hero-bg-2 {
+background-image: url('../img/bg-a-escolha-.jpg'); /* Substituir com o caminho correto */
+background-size: cover;
+background-position: top;
+}
+
+        /* Animação para carrossel para a direita */
+    .scroll-left {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+}
+
+/* Animação para carrossel para a esquerda */
+.scroll-right {
+    display: flex;
+    animation: scroll-right 30s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Ajuste de largura para garantir que o loop seja suave */
+.carrossel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A ESCOLHA, IV Simpósio da Nutrição Funcional | FSA®</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" href="assets/img/favicon.svg" type="image/png">
+ 
+    <style>
+
+.hero-bg-2 {
+background-image: url('assets/img/bg-obrigado-aescolha.jpg'); /* Substituir com o caminho correto */
+background-size: cover;
+background-position: center;
+height:1080px;
+}
+
+
+/* Animação de gradiente para a borda */
+@keyframes gradient-border {
+    0% { border-color: red; }
+    50% { border-color: orange; }
+    100% { border-color: red; }
+}
+
+/* Animação de fade-in e fade-out para o texto */
+@keyframes text-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.highlight-box {
+    border: 2px solid; /* Border inicial */
+    padding: 1rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    animation: gradient-border 3s infinite; /* Aplica o gradiente animado na borda */
+}
+
+/* Aplica o efeito de piscar ao texto */
+.blink-text {
+    animation: text-blink 1s infinite;
+}
+
+
+        /* Estilo do botão principal */
+        .btn-green {
+            position: relative;
+            background-color: #10B981;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            animation: depthBounce 0.75s ease-in infinite; /* Animação de profundidade */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra cinza escuro */
+        }
+
+        /* Pseudo-elemento para o efeito de pulso */
+        .btn-green::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(16, 185, 129, 0.5);
+            border-radius: 0.5rem;
+            transform: scale(1);
+            opacity: 1;
+            animation: pulse 1.5s ease-in-out infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Animação de pulso */
+        @keyframes pulse {
+            50% {
+                transform: scale(0.8);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.2); /* Expande ligeiramente */
+                opacity: 0;
+            }
+        }
+
+        /* Animação de profundidade */
+        @keyframes depthBounce {
+            0%, 100% {
+                transform: scale(1); /* Tamanho normal */
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+            }
+            50% {
+                transform: scale(1.025); /* Aumenta para simular a aproximação */
+                box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.7); /* Aumenta a sombra para dar profundidade */
+            }
+        }
+
+               /* Estilo da barra de progresso */
+       .progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #dc8400;
+            transition: width 3s ease-in-out;
+        }
+
+        .progress-container {
+            width: 100%;
+            max-width: 600px;
+            height: 30px;
+            background-color: #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-90 {
+            width: 90%;
+        }
+    </style>
+</head>
+<body class="text-white" style="background-color: #101A46";>
+
+<div class="hero-bg-2">
+    <section class="py-8 text-center">
+        <div class="container mx-auto w-[95%]">
+            <div class="flex justify-center items-center md:space-x-24 space-x-8 mt-8">
+                <img src="assets/img/logotipo-a-escolha.svg" alt="A Escolha" class="h-24">
+            </div>
+
+            <h1 class="text-3xl md:text-4xl mb-12 mt-4">IV Simpósio da <br><span class="text-orange-500 font-bold">Nutrição Funcional</span></h1>
+            <div class="progress-container mt-12 mb-12 mx-auto">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="highlight-box md:w-[500px] lg:w-[500px] mx-auto">
+                <p class="text-3xl mx-auto font-bold text-orange-500 blink-text">Atenção: ação necessária!</p>
+            </div>
+            <div class="">
+                <p class="text-lg font-bold mt-8">Você está quase lá...</p>
+                <p class="mb-8">Falta apenas um passo para você concluir 100% da sua inscrição.</p>
+            </div>
+
+    <!-- Botão grande com efeito de pulso -->
+    <div class="text-center">
+        <a href="https://g.automatizapp.com/aescolha-presencial">
+            <button class="btn-green text-xl">Entre no grupo silencioso do evento presencial</button>
+        </a>
+        <p class="mt-2 text-xs">
+            <a href="https://g.automatizapp.com/aescolha-presencial" class="font-bold">Clique aqui</a> e entre para o Grupo do WhatsApp com todos os participantes do evento <strong>A Escolha</strong>.
+        </p>
+        <p class="text-sm text-gray-400 mt-8 md:w-1/2 mx-auto">Entre agora para o grupo silencioso oficial do evento A Escolha no WhatsApp para garantir sua participação. Informações importantes, dicas, materiais e links de acesso serão enviados.</p>
+    </div>
+           
+        </div>
+    </section>
+
+    <!-- Barra de Progresso -->
+    <section class="py-4 mt-8 mb-8">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4">CONFIRA SEU EMAIL DE CADASTRO</h3>
+            <p class="text-sm text-gray-400 mb-8">Acabamos de enviar um e-mail! Verifique sua caixa de entrada, spam ou lixo eletrônico.</p>
+                </div>
+    </section>
+
+    <section class="rounded-2xl">
+        <div class="container rounded-lg mx-auto overflow-hidden">
+            <!-- Carrossel 1 (Direita para Esquerda) -->
+            <div class="scroll-left mb-4 rounded-lg">
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-1.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-2.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-3.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-4.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-5.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-6.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-7.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-8.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-9.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-10.jpg');"></div>
+            </div>
+
+            <!-- Carrossel 2 (Esquerda para Direita) -->
+            <div class="scroll-right mb-4 rounded-lg">
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-11.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-12.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-13.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-14.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-15.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-16.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-17.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-18.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-19.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-20.jpg');"></div>
+            </div>
+
+            <!-- Carrossel 3 (Direita para Esquerda) -->
+            <div class="scroll-left rounded-lg">
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-21.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-22.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-23.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-24.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-25.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-26.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-27.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-28.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-29.jpg');"></div>
+                <div class="carrossel-item bg-cover" style="background-image: url('assets/img/img-carrossel-30.jpg');"></div>
+            </div>
+        </div>
+        
+    </section>
+
+          <!-- Rodapé -->
+  <footer class="bg-chicago-800 text-white py-20">
+    <div class="container mx-auto px-4 lg:px-8 lg:max-w-5xl flex flex-col lg:flex-row items-center justify-between">
+      
+      <!-- Logotipo e nome da instituição -->
+      <div class="lg:w-1/3 mb-6 lg:mb-0 lg:text-left">
+        <img src="assets/img/logotipo-fsa-branco.svg" alt="Faculdade de Saúde Avançada" class="w-40">
+      </div>
+
+      <!-- Texto descritivo / Nota Legal -->
+      <div class="lg:w-2/3 text-sm text-gray-300 lg:text-left">
+        <p class="lg:max-w-lg lg:ml-auto text-[12px]">
+          Este treinamento é voltado para profissionais da Área da Saúde. O exercício da profissão é restrito a profissionais devidamente habilitados pelo conselho de classe correspondente à sua especialidade. Se você não possui esse registro, não siga as orientações recomendadas neste treinamento. Sempre consulte o seu médico sobre qualquer assunto relativo à sua saúde e aos tratamentos e medicamentos tomados por você ou pelas pessoas que recebem seus cuidados e atenção.
+        </p>
+      </div>
+    </div>
+ 
+  </footer>
+</div>
+
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        // Função para animar a barra de progresso
+        window.onload = function () {
+            var progressBar = document.querySelector('.progress-bar');
+            setTimeout(function () {
+                progressBar.classList.add('progress-90');
+            }, 200); // Atraso de 500ms antes de começar a animação
+        };
+
+            // Função de redirecionamento automático
+    setTimeout(function() {
+        window.location.href = "https://g.automatizapp.com/aescolha-presencial";
+    }, 5000); // Redireciona após 5 segundos (5000 milissegundos)
+    </script>
+</body>
+</html>
